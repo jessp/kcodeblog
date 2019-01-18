@@ -35,7 +35,7 @@ This tutorial will walk you through how to get your code to be compatible with t
 
 I used only a handle of functions while creating this blog post. Here's where to find them in the KnitPaint interface:
 
-![Button locations](/assets/images/buttons-01.png)
+{% include figure image_path="/assets/images/buttons-01.png"%}
 
 
 # 1. Select and Copy the Main Portion of Your Design
