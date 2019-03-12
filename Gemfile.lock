@@ -248,6 +248,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-archives
+  jekyll-gist
   jekyll-include-cache
 
 BUNDLED WITH

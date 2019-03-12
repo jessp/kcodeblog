@@ -17,20 +17,16 @@ title: "Knitting with Knitout"
 name: "Jess Peter"
 description: >- # this means to ignore newlines until "baseurl:"
   A recipe book featuring advice on machine knitting with Knitout.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://awardwinninghuman.com # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-gist
 
-remote_theme: "mmistakes/minimal-mistakes@4.14.2"
-minimal_mistakes_skin: "contrast"
-search: true
 
 baseurl: "/kcodeblog"
 production_url : http://awardwinninghuman.com/kcodeblog
@@ -56,7 +52,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: default
+      is_post: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
