@@ -34,7 +34,7 @@
   		</div>
   		<div id="code">
         {% if page.is_post %}
-          <img src={{site.baseurl}}/{{page.image}}/>
+          <img src="{{site.baseurl}}/{{page.image}}"/>
           {% gist  page.js_gist %}
           <script>
             var client = new XMLHttpRequest();
