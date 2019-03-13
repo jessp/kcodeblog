@@ -1,6 +1,6 @@
 ---
 title:  "Plain Rectangle"
-category: introduction
+category: stitches
 description: "This is a test."
 published: true
 js_gist: "2235e746b8290a43232d8c69972d3c78"

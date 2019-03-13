@@ -87,6 +87,7 @@ h4 {
 	grid-area: sidebar;
 	padding-left: 1em;
 	padding-top: 1em;
+	overflow: scroll
 }
 
 .side_menu h3 {
@@ -231,6 +232,7 @@ h4 {
 
 	.hidden_menu.visible { 
 		display: block;
+		overflow: scroll;
 	}
 
 }
