@@ -1,5 +1,5 @@
 ---
-title:  "Half Guage"
+title:  "Half Gauge"
 category: stitches
 description: "This is a test."
 published: true

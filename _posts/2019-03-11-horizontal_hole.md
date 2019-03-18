@@ -1,5 +1,5 @@
 ---
-title:  "Button Hole"
+title:  "Horizontal Hole"
 category: shaping
 description: "This is a test."
 published: true
