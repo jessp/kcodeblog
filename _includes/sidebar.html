@@ -51,14 +51,14 @@
           </div>
       </section>
 
-      {% if page.category == "computer-generated design" %}
-          <section id="computer-generated design" class="taxonomy__section open">
+      {% if page.category == "other" %}
+          <section id="other" class="taxonomy__section open">
       {% else %}
-          <section id="computer-generated design" class="taxonomy__section">
+          <section id="other" class="taxonomy__section">
       {% endif %}
-          <h3>computer-generated design</h3>
+          <h3>other</h3>
           <div>
-            {% for post in site.categories["computer-generated design"] reversed %}
+            {% for post in site.categories["other"] reversed %}
                 {% if page.url == post.url %}
                   <h4><a href="{{site.baseurl}}{{post.url}}" class="active">{{post.title}}</a></h4>
               {% else %}

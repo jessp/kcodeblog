@@ -1,6 +1,6 @@
 ---
 title:  "Random Patterned Rectangles"
-category: computer-generated design
+category: other
 description: "This is a test."
 published: true
 js_gist: "5cd33fec54dee0138f82e79ee92b2386"

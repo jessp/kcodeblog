@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 
-html, body{
+html, body, .holder{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
@@ -12,11 +12,15 @@ html, body{
 	font-family: "Work Sans";
 }
 
-body {
+.holder {
 	display: grid;
 	grid-template-areas: "header_logo header_main header_main" "sidebar code visual";
 	grid-template-rows: 75px calc(100% - 75px);
 	grid-template-columns: 180px 50% calc(50% - 180px);
+}
+
+.holder.homepage {
+	grid-template-areas: "header_logo header_main header_main" "sidebar code code";
 }
 
 a {

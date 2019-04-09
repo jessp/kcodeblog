@@ -1,6 +1,6 @@
 ---
 title:  "Black and White Image in Perls"
-category: computer-generated design
+category: other
 description: "This is a test."
 published: true
 js_gist: "875adf52e013a9133fd2ae4b5c3eab0b"
