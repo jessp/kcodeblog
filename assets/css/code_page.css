@@ -90,7 +90,32 @@ h4 {
 	overflow: scroll
 }
 
+
+.side_menu section:not(.open) h3:after{
+	content: ' +';
+}
+
+.side_menu section.open h3:after{
+	content: ' –';
+}
+
+.side_menu section h3{
+	margin-left:0em;
+	transition: margin-left 0.25s;
+}
+
+.side_menu section.open h3{
+	margin-left:0.5em;
+	transition: margin-left 0.25s;
+}
+
+.side_menu section:not(.open) h3:hover{
+	margin-left:0.5em;
+	transition: margin-left 0.25s;
+}
+
 .side_menu h3 {
+	cursor: pointer;
 	color: #ff8800;
 }
 
@@ -100,6 +125,10 @@ h4 {
 
 .side_menu h4 a.active,  .hidden_menu h2 a.active {
 	color: #000;
+}
+
+.side_menu section:not(.open) div{
+	display: none;
 }
 
 #code {
