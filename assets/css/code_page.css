@@ -222,7 +222,7 @@ h4 {
 }
 
 @media all and (max-width: 799px) {
-	body {
+	.holder {
 		grid-template-areas: "header_logo header_main" "sidebar code";
 		grid-template-columns: 180px calc(100% - 180px);
 	}
@@ -234,14 +234,14 @@ h4 {
 }
 
 @media all and (max-width: 599px) {
-	body {
+	.holder {
 		grid-template-columns: 140px calc(100% - 140px);
 	}
 
 }
 
 @media all and (max-width: 549px) {
-	body {
+	.holder {
 		display: grid;
 		grid-template-areas: "header_main" "code";
 		grid-template-columns: 100%;
