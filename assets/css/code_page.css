@@ -241,7 +241,7 @@ h4 {
 }
 
 @media all and (max-width: 549px) {
-	.holder {
+	.holder, .holder.homepage {
 		display: grid;
 		grid-template-areas: "header_main" "code";
 		grid-template-columns: 100%;
