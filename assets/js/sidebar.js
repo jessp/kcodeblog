@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-	let sideMenu = document.querySelectorAll("#menu .side_menu")[0];
-	let sections = sideMenu.querySelectorAll("section");
+	let sections = document.querySelectorAll(".side_menu section");
 	sections.forEach(function(d){
 		d.querySelectorAll("h3")[0].onclick = function(e){
 			let el = d;
